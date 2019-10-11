@@ -31,14 +31,11 @@
   </div>
 </template>
 <script>
-import { Tabs, TabPane } from "@/components";
 
 export default {
   name: "services",
   bodyClass: "services-page",
   components: {
-    Tabs,
-    TabPane
   },
   data() {
     return {

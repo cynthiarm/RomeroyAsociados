@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="section pt-0 mx-5">
-      <div class="container d-flex">
+      <div class="container d-flex justify-content-center">
         <div class="row service my-5 mx-auto text-center">
           <div class="contact-info__vcard vcard">
             <h4 class="fn org">ROMERO NIEBLAS & ASOCIADOS S.C.</h4>
@@ -28,7 +28,7 @@
             </p>
             <p>
               <font-awesome-icon icon="envelope" class="mx-2" />
-              <a class="email" href="mailto:contact@example.com">info@rnyasociados.com.mx</a>
+              <a class="email" href="mailto:info@rnyasociados.com">info@rnyasociados.com.mx</a>
             </p>
             <p>
               <font-awesome-icon icon="phone" class="mx-2" />
@@ -55,7 +55,7 @@
   </div>
 </template>
 <script>
-import { Tabs, TabPane, FormGroupInput, Button } from "@/components";
+import { FormGroupInput, Button } from "@/components";
 export default {
   data() {
     return {
@@ -69,10 +69,8 @@ export default {
   name: "contact",
   bodyClass: "contact-page",
   components: {
-    Tabs,
     [Button.name]: Button,
-    [FormGroupInput.name]: FormGroupInput,
-    TabPane
+    [FormGroupInput.name]: FormGroupInput
   }
 };
 </script>
