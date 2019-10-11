@@ -32,7 +32,11 @@
             </p>
             <p>
               <font-awesome-icon icon="phone" class="mx-2" />
-              <a class="email" href="tel:+526862515071">638-383-6320</a>
+              <a class="email" href="tel:+52638-383-6320">638-383-6320</a>
+            </p>
+            <p>
+              <font-awesome-icon icon="whatsapp" class="mx-2" />
+              <a class="email" href="tel:+52638-113-89-69 ">638-113-89-69</a>
             </p>
           </div>
         </div>
@@ -41,7 +45,7 @@
 
     <GmapMap
       :center="{lat: 31.3065539,lng:-113.539491 }"
-      :zoom="16"
+      :zoom="15"
       map-type-id="terrain"
       style="width: 100%; height: 500px"
     >
